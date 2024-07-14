@@ -27,5 +27,33 @@ console.log(value)
 value = 2
 console.log(value)
 
+// Activity 5
+const a = 3;
+a=4
+console.log(a)
+
+
+/* Outputs of All Taskes
+
+2000
+Saifullah
+true
+┌─────────┬───────────┐
+│ (index) │  Values   │
+├─────────┼───────────┤
+│    0    │ 'string'  │
+│    1    │ 'number'  │
+│    2    │ 'boolean' │
+│    3    │ 'object'  │
+│    4    │ 'object'  │
+└─────────┴───────────┘
+1
+2
+
+a=4
+ ^
+TypeError: Assignment to constant variable.
+    
+*/
 
 
