@@ -1,3 +1,5 @@
+// Data Types and Variables
+
 // Activity 1
 var dob = 2000
 console.log(dob)
