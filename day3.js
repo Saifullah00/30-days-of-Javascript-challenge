@@ -21,7 +21,7 @@ if(a>b){
     }
 }
 
-// Activity 4:
+// Activity 3:
 const ch = 7
 switch(ch){
     case 1:
@@ -39,3 +39,7 @@ switch(ch){
     default:
         console.log("Friday")
 }
+
+// Activity 4:
+let number =3
+const check = (number%2==0) ? console.log("even"):console.log("odd") 
