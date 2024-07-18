@@ -44,11 +44,12 @@ const prd = (num1,num2=10)=> num1*num2
 // console.log(prd(5))
 
 const greet = (name,age=18)=> "Good Morning "+name+"!"
-// console.log(greet("Saad"))
+console.log(greet("Saad"))
 
 // ACtivity 5
 // Higher order func
 function callFunc(fn,num){
     return fn(name,num)
 }
-console.log(callFunc(greet,3))
+
+// console.log(callFunc(fn,3))
